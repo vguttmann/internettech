@@ -29,7 +29,14 @@ strong {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: column;
   margin: 20px;
+}
+
+@media (min-width: 512px) {
+  .evaluation {
+    flex-direction: row;
+  }
 }
 
 .evaluation h3, .evaluation p {
