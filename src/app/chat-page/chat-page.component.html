@@ -1,0 +1,37 @@
+<!--
+last change: 24.06.2024
+author: Vincent Guttmann
+
+description: display of the chatbot page
+-->
+
+<div class="app-cont">
+  <!-- additional info -->
+  <div class="explanation">
+    <h2>Welcome to Drone Finder Application</h2>
+    <h3>Purpose of the Application:</h3>
+    <p>
+      Welcome to the Drone Finder Application, a project developed as part of our university coursework. This
+      application is designed to help you find the perfect drone that suits your needs and preferences. Whether you're
+      new to drones or an experienced pilot, our interactive chatbot guides you through a series of questions to
+      recommend the most suitable drone model for you.
+    </p>
+
+    <h3>About the Application:</h3>
+    <p>
+      This application serves as a platform where users can interact with the Drone Finder Chatbot to discover drones
+      based on their specific requirements. The chatbot takes into account factors such as application, budget,
+      automation and desired features to provide optimal recommendations.
+    </p>
+  </div>
+
+  <!-- different display in the chat window depending on the login -->
+  <div class="container">
+    <div *ngIf="controller.loggedIn" class="chat">
+        <app-chat></app-chat>
+    </div>
+    <div *ngIf="!controller.loggedIn" class="chat">
+        <app-data></app-data>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+<!--
+last change: 24.06.2024
+author: Vincent Guttmann
+
+description: display of the evaluation page
+-->
+<div class="container">
+  <!-- message when bot has not finished -->
+  <div *ngIf="(evaluationData.length === 0)" class="frame">
+    <h2 routerLink="/chat">Please complete the evaluation with the Chatbot first!</h2>
+    <img src='assets/DJI Avata 2.jpg' alt="Autel EVO Lite+" class="title-image"/>
+  </div>
+
+  <!-- greeting -->
+  <div *ngIf="(evaluationData.length !== 0)" class="frame">
+    <h2>Hello {{name}}!</h2>
+    <p id="title-text">
+      Congratulations on completing the drone recommendation quiz! Based on your responses, here's a summary of the drones we discussed and your accuracy score from answering the chatbot:
+    </p>
+    <br>
+  </div>
+
+  <!-- enumeration of the drones with the corresponding accordance -->
+  <div *ngFor="let evaluation of evaluationData" class="evaluation">
+    <div class="text">
+      <h2>The {{evaluation.name}}</h2>
+      <p>achieved a <strong>{{evaluation.certainty}}%</strong> certainty.</p>
+    </div>
+
+    <a href="{{evaluation.link}}">
+      <img src='assets/{{evaluation.image_name}}.jpg' alt="{{evaluation.name}}"/>
+    </a>
+  </div>
+</div>

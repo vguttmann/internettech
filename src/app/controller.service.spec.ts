@@ -8,6 +8,7 @@ describe('ControllerService', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
+
     service = TestBed.inject(ControllerService);
   });
 

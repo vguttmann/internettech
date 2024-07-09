@@ -1,0 +1,58 @@
+/*
+last change: 24.06.2024
+author: Vincent Guttmann
+
+description: style of the chat page
+*/
+
+.app-cont {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: start;
+}
+
+/* additional css for the chatbot frame */
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.chat {
+  align-self: center;
+  background-color: rgba(30, 30, 30, 0.75);
+  color: #ffffff;
+  padding: 20px 20px 0 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 60vh;
+  min-height: 300px;
+  width: 80vw;
+  min-width: 300px;
+  max-width: 1000px;
+  overflow-y: auto;
+  margin: 12px;
+}
+
+.explanation {
+  margin-left: 12px;
+}
+
+p {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+a {
+  color: #a5f8f5;
+}
+
+a:hover {
+  color: #368fde;
+}
+
+a:visited {
+  color: #446988;
+}

@@ -4,26 +4,21 @@ author: Vincent Guttmann
 
 description: display of the chat window
 -->
+
 <!-- container for division of the display -->
 <div class="chat-container">
-    <!-- displays all messages -->
-    <div class="chat-messages" #messageContainer>
-        <!-- iterates over all messages and style them according to their sender -->
-        <div *ngFor="let field of controller.messages" class="{{field.class}}">
-            <!-- represents the message-bubble -->
-            <div class="{{field.class}}-text">
-                {{field.text}}
-            </div>
-            <!-- represents the message information -->
-            <div class="{{field.class}}-info">
-                {{field.sender}} - {{field.time}}
-            </div>
-        </div>
+  <!-- displays all messages -->
+  <div class="chat-messages" #messageContainer>
+    <div *ngFor="let field of controller.messages" class="{{field.cssClass}} author">
+      <div class="{{field.cssClass}}-text author-text" [innerHTML]="field.text"></div>
+      <div class="{{field.cssClass}}-info author-info">
+        {{field.author}} &#64; {{field.time}}
+      </div>
     </div>
+  </div>
 
-    <!-- input field for the message of the user -->
-    <div class="chat-input">
-        <input title="Your message..." [(ngModel)]="message" (keydown.enter)="sendMessage()">
-        <button (click)="sendMessage()">Send</button>
-    </div>
+  <div class="chat-input">
+    <input placeholder="Your message..." [(ngModel)]="message" (keydown.enter)="sendMessage()" #chatInput>
+    <button class="transition" (click)="sendMessage()">Send</button>
+  </div>
 </div>
