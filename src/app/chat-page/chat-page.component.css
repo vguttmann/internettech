@@ -12,7 +12,7 @@ description: style of the chat page
   align-items: start;
 }
 
-@media (min-width: 512px) {
+@media (min-width: 1325px) {
   .app-cont {
     flex-direction: row;
   }
@@ -23,6 +23,7 @@ description: style of the chat page
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-shrink: 1;
 }
 
 .chat {
@@ -37,12 +38,14 @@ description: style of the chat page
   width: 80vw;
   min-width: 300px;
   max-width: 1000px;
+  flex-grow: 1;
   overflow-y: auto;
   margin: 12px;
 }
 
 .explanation {
   margin-left: 12px;
+  min-width: 250px;
 }
 
 p {
