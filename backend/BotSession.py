@@ -323,11 +323,11 @@ class BotSession:
     except KeyError:
       pass
 
-    # calculate score for all drones
+    # calculate score for all microcontrollers
     for name, data in controller_data.items():
       score = max_score / 2  # default score
 
-      # iterate over all criteria of the drone
+      # iterate over all criteria of the microcontrollers
       for key, val in data["characteristic"].items():
         # ignore criteria that are not given
         if key not in self.knowledge.keys():

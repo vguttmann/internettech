@@ -159,16 +159,7 @@
     "size": {
         "question": "How much space is your MCU allowed to take up?",
         "fallback": [
-            "How would you categorize your knowledge over your country's drone law, not existing, little, or big enough?",
-            "Please specify your knowledge level about drone laws: none, little, or enough.",
-            "Do you have no, little, or enough knowledge about the applicable drone laws?",
-            "Let me know if your knowledge of drone laws is none, little, or enough.",
-            "How familiar are you with drone laws: none, little, or enough?",
-            "Would you say your knowledge of drone laws is nonexistent, little, or sufficient?",
-            "Can you rate your understanding of drone laws as none, a little, or enough?",
-            "Describe your knowledge of drone laws: none, some, or detailed.",
-            "How much do you know about drone regulations: nothing, a little, or a lot?",
-            "Do you have knowledge of drone laws: none at all, a bit, or comprehensive?"
+            "How would you categorize your space available: medium, little, or big?"
         ],
         "result": {
             "low": [
@@ -202,7 +193,7 @@
         }
     },
     "budget": {
-        "question": "What is your budget for this controller??",
+        "question": "What is your budget for this controller?",
         "fallback": [
             "Please provide your answer in EUR currency using a standard format.",
             "Can you please answer in EUR?",

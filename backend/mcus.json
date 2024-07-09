@@ -4,7 +4,7 @@
             "develprod": "devel",
             "budget": 10,
             "consumption": "low",
-            "io": "med",
+            "io": "low",
             "speed": "low",
             "specials": "none",
             "sophistication": "novice",
