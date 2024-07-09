@@ -7,10 +7,10 @@
             "io": 20,
             "speed": 16,
             "specials": "none",
-            "sophistication": "beginner",
+            "sophistication": "novice",
             "size": 3
         },
-        "text": "The Arduino Uno is a popular microcontroller board based on the ATmega328P. It features 14 digital input/output pins, 6 analog inputs, a 16 MHz quartz crystal, a USB connection, a power jack, and an ICSP header. Known for its ease of use, the Arduino Uno is ideal for beginners and experienced developers alike, making it a versatile choice for a wide range of electronic projects and prototypes.",
+        "text": "The Arduino Uno is a popular microcontroller board based on the ATmega328P. It features 14 digital input/output pins, 6 analog inputs, a 16 MHz quartz crystal, a USB connection, a power jack, and an ICSP header. Known for its ease of use, the Arduino Uno is ideal for novices and experienced developers alike, making it a versatile choice for a wide range of electronic projects and prototypes.",
         "image": "Arduino Uno",
         "link": "https://store.arduino.cc/products/arduino-uno-rev3"
     },
@@ -39,7 +39,7 @@
             "io": 26,
             "speed": 133,
             "specials": "none",
-            "sophistication": "beginner",
+            "sophistication": "novice",
             "size": 3
         },
         "text": "The Pi Pico is a microcontroller board developed by Raspberry Pi, featuring the RP2040 microcontroller chip. It offers 26 GPIO pins, which can be used for digital input/output or analog-to-digital conversion. The Pi Pico supports a variety of interfaces such as SPI, I2C, UART, and PWM, making it versatile for a range of projects. With its affordability, compact size, and programmability in MicroPython and C/C++, the Pi Pico is favored for prototyping and building embedded systems and IoT devices.",
@@ -54,7 +54,7 @@
             "io": 40,
             "speed": 1200,
             "specials": "all",
-            "sophistication": "beginner",
+            "sophistication": "novice",
             "size": 4
         },
         "text": "The Raspberry Pi 4 Model B is a highly capable single-board computer developed by the Raspberry Pi Foundation. It features a quad-core ARM Cortex-A72 CPU running at up to 1.5GHz, paired with options for 2GB, 4GB, or 8GB of RAM, providing significant performance improvements over its predecessors. The Pi 4B supports dual 4K displays via micro HDMI ports, Gigabit Ethernet, dual-band Wi-Fi, Bluetooth 5.0, USB 3.0 ports, and GPIO headers for interfacing with external devices. It is well-suited for a wide range of applications, including as a desktop replacement, media center, server, or embedded computing platform, due to its versatility, affordability, and expandability through various peripherals and accessories.",

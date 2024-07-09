@@ -1,22 +1,22 @@
 {
 
     "sophistication": {
-        "question": "Would you consider yourself a beginner, intermediate or advanced embedded developer?",
+        "question": "Would you consider yourself a novice, intermediate or advanced embedded developer?",
         "fallback": [
-            "How would you classify your proficiency in embedded systems programming: beginner, intermediate, or advanced?",
-            "Please indicate your proficiency level in embedded development: beginner, intermediate, or advanced.",
-            "Are you familiar with embedded programming at a beginner, intermediate, or advanced level?",
-            "Please indicate whether your understanding of embedded programming is at a beginner, intermediate, or advanced level.",
-            "How experienced are you with embedded programming: beginner, intermediate, or advanced?",
-            "How would you classify your knowledge of embedded engineering: beginner, intermediate, or advanced?",
-            "Would you assess your understanding of embedded systems design as beginner, intermediate, or advanced?",
-            "Please characterize your knowledge of embedded programming: beginner, intermediate, or advanced.",
-            "What is your level of familiarity with embedded programming: beginner, intermediate, or advanced?",
-            "Are you familiar with embedded programming at a level: none, beginner, intermediate, or advanced?"
+            "How would you classify your proficiency in embedded systems programming: novice, intermediate, or advanced?",
+            "Please indicate your proficiency level in embedded development: novice, intermediate, or advanced.",
+            "Are you familiar with embedded programming at a novice, intermediate, or advanced level?",
+            "Please indicate whether your understanding of embedded programming is at a novice, intermediate, or advanced level.",
+            "How experienced are you with embedded programming: novice, intermediate, or advanced?",
+            "How would you classify your knowledge of embedded engineering: novice, intermediate, or advanced?",
+            "Would you assess your understanding of embedded systems design as novice, intermediate, or advanced?",
+            "Please characterize your knowledge of embedded programming: novice, intermediate, or advanced.",
+            "What is your level of familiarity with embedded programming: novice, intermediate, or advanced?",
+            "Are you familiar with embedded programming at a level: none, novice, intermediate, or advanced?"
         ],
         "result": {
-            "beginner": [
-                "beginner",
+            "novice": [
+                "novice",
                 "no ",
                 "none",
                 "dont",
