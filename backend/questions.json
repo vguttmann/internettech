@@ -1,4 +1,52 @@
 {
+
+    "sophistication": {
+        "question": "Woudl you consider yourself a beginner, intermediate or advanced embedded developer?",
+        "fallback": [
+            "How would you classify your proficiency in embedded systems programming: beginner, intermediate, or advanced?",
+            "Please indicate your proficiency level in embedded development: beginner, intermediate, or advanced.",
+            "Are you familiar with embedded programming at a beginner, intermediate, or advanced level?",
+            "Please indicate whether your understanding of embedded programming is at a beginner, intermediate, or advanced level.",
+            "How experienced are you with embedded programming: beginner, intermediate, or advanced?",
+            "How would you classify your knowledge of embedded engineering: beginner, intermediate, or advanced?",
+            "Would you assess your understanding of embedded systems design as beginner, intermediate, or advanced?",
+            "Please characterize your knowledge of embedded programming: beginner, intermediate, or advanced.",
+            "What is your level of familiarity with embedded programming: beginner, intermediate, or advanced?",
+            "Are you familiar with embedded programming at a level: none, beginner, intermediate, or advanced?"
+        ],
+        "result": {
+            "beginner": [
+                "beginner",
+                "no ",
+                "none",
+                "dont",
+                "n't",
+                "never",
+                "negative",
+                "false"
+            ],
+            "intermediate": [
+                "little",
+                "existing",
+                "bit",
+                "some",
+                "few",
+                "small"
+            ],
+            "advanced": [
+                "enough",
+                "suffic",
+                "big",
+                "much",
+                "lot",
+                "know",
+                "detail",
+                "all",
+                "every",
+                "comprehensive"
+            ]
+        }
+    },
     "country": {
         "question": "For the start I have to roughly know where you live, for further consideration of course.",
         "fallback": [

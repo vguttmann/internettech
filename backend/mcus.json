@@ -7,7 +7,7 @@
             "io": 20,
             "speed": 16,
             "specials": "none",
-            "sophistication": 1,
+            "sophistication": "beginner",
             "size": 3
         },
         "text": "The Arduino Uno is a popular microcontroller board based on the ATmega328P. It features 14 digital input/output pins, 6 analog inputs, a 16 MHz quartz crystal, a USB connection, a power jack, and an ICSP header. Known for its ease of use, the Arduino Uno is ideal for beginners and experienced developers alike, making it a versatile choice for a wide range of electronic projects and prototypes.",
@@ -24,7 +24,7 @@
             "io": 25,
             "speed": 120,
             "specials": "all",
-            "sophistication": 3,
+            "sophistication": "intermediate",
             "size": 2
         },
         "text": "The ESP32 is a powerful and versatile microcontroller with integrated Wi-Fi and Bluetooth capabilities, developed by Espressif Systems. Featuring a dual-core processor, 520 KB of SRAM, and extensive GPIO options, the ESP32 is ideal for a wide range of applications, from IoT projects to wearable devices. Its robust connectivity options and rich feature set make it a popular choice among developers for creating innovative and connected solutions.",
@@ -39,7 +39,7 @@
             "io": 26,
             "speed": 133,
             "specials": "none",
-            "sophistication": 2,
+            "sophistication": "beginner",
             "size": 3
         },
         "text": "The Pi Pico is a microcontroller board developed by Raspberry Pi, featuring the RP2040 microcontroller chip. It offers 26 GPIO pins, which can be used for digital input/output or analog-to-digital conversion. The Pi Pico supports a variety of interfaces such as SPI, I2C, UART, and PWM, making it versatile for a range of projects. With its affordability, compact size, and programmability in MicroPython and C/C++, the Pi Pico is favored for prototyping and building embedded systems and IoT devices.",
@@ -54,7 +54,7 @@
             "io": 40,
             "speed": 1200,
             "specials": "all",
-            "sophistication": 1,
+            "sophistication": "beginner",
             "size": 4
         },
         "text": "The Raspberry Pi 4 Model B is a highly capable single-board computer developed by the Raspberry Pi Foundation. It features a quad-core ARM Cortex-A72 CPU running at up to 1.5GHz, paired with options for 2GB, 4GB, or 8GB of RAM, providing significant performance improvements over its predecessors. The Pi 4B supports dual 4K displays via micro HDMI ports, Gigabit Ethernet, dual-band Wi-Fi, Bluetooth 5.0, USB 3.0 ports, and GPIO headers for interfacing with external devices. It is well-suited for a wide range of applications, including as a desktop replacement, media center, server, or embedded computing platform, due to its versatility, affordability, and expandability through various peripherals and accessories.",
@@ -69,7 +69,7 @@
             "io": 30,
             "speed": 250,
             "specials": "none",
-            "sophistication": 4,
+            "sophistication": "advanced",
             "size": 1
             },
         "text": "TThe STM32 series encompasses a broad range of microcontrollers manufactured by STMicroelectronics, known for their robust performance and versatility in embedded systems. These microcontrollers feature ARM Cortex-M cores, offering varying levels of processing power, memory, and peripheral interfaces to suit diverse application requirements. STM32 devices are widely used in industrial automation, consumer electronics, automotive applications, and IoT devices due to their efficient power management, extensive connectivity options (including USB, CAN, Ethernet), and comprehensive development ecosystem supported by STM32Cube software and various IDEs (Integrated Development Environments). Their reliability and scalability make STM32 microcontrollers a popular choice among developers seeking robust solutions for embedded projects.",
@@ -84,7 +84,7 @@
             "io": 8,
             "speed": 16,
             "specials": "none",
-            "sophistication": 4,
+            "sophistication": "intermediate",
             "size": 1
         },
         "text": "The ATtiny family of microcontrollers, manufactured by Microchip Technology (formerly Atmel), offers a compact and cost-effective solution for embedded applications with limited space and power requirements. These microcontrollers are based on AVR RISC architecture and feature a range of pin counts and memory sizes to accommodate various project needs. Despite their small size, ATtiny microcontrollers are capable of handling tasks such as analog-to-digital conversion, PWM output, and interfacing with sensors and actuators. They are popular for low-power applications, DIY electronics projects, and educational purposes due to their simplicity, ease of programming with the Arduino IDE, and affordability.",
@@ -99,7 +99,7 @@
             "io": 100,
             "speed": 2000,
             "specials": "none",
-            "sophistication": 8,
+            "sophistication": "advanced",
             "size": 3
         },
         "text": "The Artix-7 family of Field-Programmable Gate Arrays (FPGAs) is produced by Xilinx, designed to deliver a balance of low power consumption and high performance. These FPGAs feature a scalable architecture with densities ranging from 15,850 to 444,000 logic cells and are built on a 28nm process technology. The Artix-7 FPGAs support a wide range of applications including wireless communications, industrial automation, automotive, and aerospace. They offer features such as high-speed transceivers, versatile I/O options, integrated memory blocks, and efficient DSP capabilities. With robust development tools and programmability, the Artix-7 family enables engineers and developers to implement customizable digital circuits and accelerate time-to-market for complex designs.",
