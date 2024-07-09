@@ -13,7 +13,7 @@ from BotSession import BotSession
 
 # create fastapi instance
 app = FastAPI(
-  title="IT-Project Knowledge-DB API",
+  title="MCU Knowledgebase Ultra",
   version="0.1.0"
 )
 
