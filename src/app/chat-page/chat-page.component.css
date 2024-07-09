@@ -7,9 +7,15 @@ description: style of the chat page
 
 .app-cont {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
   align-items: start;
+}
+
+@media (min-width: 512px) {
+  .app-cont {
+    flex-direction: row;
+  }
 }
 
 /* additional css for the chatbot frame */
