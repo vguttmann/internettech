@@ -1,0 +1,265 @@
+{
+    "DJI MATRICE 300 RTK": {
+        "characteristic": {
+            "people": "away",
+            "location": "outdoor",
+            "budget": 5000,
+            "type": "work",
+            "behaviour": "defensive",
+            "size": "large",
+            "feed": "digital"
+        },
+        "text": "Ideal for professional outdoor operations, the DJI Matrice 300 RTK excels in inspection, surveying, and mapping. With a budget around $5000, this large, robust drone ensures high precision with its advanced RTK positioning. Designed for use away from people, it offers stability and safety in challenging conditions. Its digital feed provides high-quality, real-time data, supporting various payloads for customizable use in construction, agriculture, and emergency response. The Matrice 300 RTK is a reliable, high-performance tool for demanding tasks.",
+        "image": "DJI MATRICE 300 RTK",
+        "link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fenterprise.dji.com%2Fde%2Fmatrice-300&psig=AOvVaw3otuV0lJr2wiszFQsnR0fV&ust=1719347964544000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJjtwLeM9YYDFQAAAAAdAAAAABAE"
+    },
+    "Flyability Elios 3": {
+        "characteristic": {
+            "location": "indoor",
+            "budget": 50000,
+            "type": "work",
+            "spec_type": "monitoring",
+            "time": "long",
+            "behaviour": "defensive",
+            "size": "small",
+            "fpv": "yes",
+            "camera": "infrared"
+        },
+        "text": "The Flyability Elios 3 is an exceptional drone designed for indoor industrial applications, particularly suited for monitoring tasks. With a substantial budget of $50,000, this small yet powerful drone excels in navigating confined spaces safely with its defensive behavior. It features a first-person view (FPV) system and an infrared camera, making it perfect for detailed inspections and long-duration monitoring. Ideal for industries like manufacturing, power generation, and mining, the Elios 3 offers unmatched reliability and precision for complex indoor environment",
+        "image": "Flyability Elios 3",
+        "link": "https://www.mirion.com/flyability"
+    },
+    "DJI Mavic 3": {
+        "characteristic": {
+            "license": "A1",
+            "people": "close",
+            "budget": 1300,
+            "spec_type": "foto",
+            "distance": "vlos",
+            "size": "medium",
+            "feed": "digital",
+            "camera": "none"
+        },
+        "text": "The DJI Mavic 3 is a versatile drone perfect for photography enthusiasts and professionals who need to operate close to people. With a budget-friendly price of around $1300, this medium-sized drone is suitable for A1 license holders. It excels in visual line of sight (VLOS) operations, making it ideal for capturing stunning aerial photos. Equipped with a digital feed, the Mavic 3 ensures high-quality real-time data transmission. Though it currently lacks an opportunity for external cameras, it remains a top choice for those looking to enhance their aerial photography capabilities with the onboard camera setup.",
+        "image": "DJI Mavic 3",
+        "link": "https://www.chip.de/test/DJI-Mavic-3-im-Test_184011541.html"
+    },
+    "Freefly Alta 8": {
+        "characteristic": {
+            "country": "no_eu",
+            "location": "outdoor",
+            "budget": 20000,
+            "spec_type": "movie",
+            "time": "long",
+            "size": "huge",
+            "camera": "movie"
+        },
+        "text": "The Freefly Alta 8 is a premier choice for professional filmmakers working on outdoor projects, especially outside the EU law. With a budget of around $20,000, this huge drone is specifically designed for movie production, offering exceptional stability and performance for long flight times. Its robust build and advanced features allow it to carry high-end movie cameras, making it ideal for capturing cinematic aerial shots. The Alta 8 is a top-tier option for demanding film industry professionals seeking reliable and high-quality aerial cinematography.",
+        "image": "Freefly Alta 8",
+        "link": "https://www.cined.com/freefly-alta-8-announced/"
+    },
+    "XAG V40 2021": {
+        "characteristic": {
+            "people": "away",
+            "location": "outdoor",
+            "budget": 10000,
+            "type": "work",
+            "spec_type": "agricultural",
+            "time": "long",
+            "size": "huge",
+            "automation": "autonomous"
+        },
+        "text": "The XAG V40 2021 is an exceptional drone for agricultural professionals needing robust and reliable aerial support. Priced at around $10,000, this huge drone is designed for outdoor use away from people, offering long flight times for extensive field coverage. Its autonomous operation ensures efficient and precise agricultural tasks, from crop monitoring to spraying. The V40 2021 combines advanced technology with durable construction, making it an ideal investment for maximizing productivity and accuracy in large-scale farming operations.",
+        "image": "XAG V40 2021",
+        "link": "https://agro.ria.com/ru/sell-agrodron-xag-v40-350002094.html"
+    },
+    "Parrot ANAFI": {
+        "characteristic": {
+            "license": "A3",
+            "location": "outdoor",
+            "budget": 3500,
+            "spec_type": "monitoring",
+            "behaviour": "defensive",
+            "size": "medium",
+            "feed": "digital",
+            "camera": "infrared"
+        },
+        "text": "The Parrot ANAFI is an excellent drone for outdoor monitoring tasks, ideal for A3 license holders. With a budget of around $3500, this medium-sized drone offers robust performance and defensive behavior for safe operations. Equipped with a digital feed and an infrared camera, it is perfect for detailed monitoring and inspection tasks. The ANAFI’s compact design and advanced features make it suitable for environmental monitoring, infrastructure inspections, and more, providing reliable and high-quality data for professional applications.",
+        "image": "Parrot ANAFI",
+        "link": "https://pilotinstitute.com/course/parrot-anafi-usa-deep-dive/"
+    },
+    "WingtraOne Gen II": {
+        "characteristic": {
+            "people": "away",
+            "location": "outdoor",
+            "budget": 23000,
+            "type": "work",
+            "spec_type": "monitoring",
+            "distance": "bvlos",
+            "time": "long",
+            "automation": "autonomous"
+        },
+        "text": "The WingtraOne Gen II is designed for outdoor work away from people, ideal for extensive monitoring tasks. With a budget of approximately $23,000, this drone excels in beyond visual line of sight (BVLOS) operations and offers long flight times. Its autonomous capabilities ensure efficient and precise data collection for monitoring applications. The WingtraOne Gen II is a reliable choice for professionals requiring advanced aerial technology to enhance their monitoring and surveying operations with minimal human intervention.",
+        "image": "WingtraOne Gen II",
+        "link": "https://epotronic.com/WINGTRA-WingtraOne-GEN-II-VTOL-RC-2x-batteries-soft-case/E002WON"
+    },
+    "Potensic ATOM SE": {
+        "characteristic": {
+            "people": "over",
+            "budget": 170,
+            "type": "fun",
+            "spec_type": "foto",
+            "time": "middle",
+            "size": "small",
+            "feed": "digital"
+        },
+        "text": "The Potensic ATOM SE is a budget-friendly, small-sized drone designed for fun aerial photography. Priced at approximately $170, it is suitable for flying over people with its digital feed for real-time viewing. Ideal for hobbyists and beginners, this drone offers moderate flight time and is equipped for capturing aerial photos. The ATOM SE provides an accessible entry into drone photography, making it a great choice for recreational use and learning the basics of aerial imaging.",
+        "image": "Potensic ATOM SE",
+        "link": "https://www.space.com/potensic-atom-se-review"
+    },
+    "DJI Mini 3 Pro": {
+        "characteristic": {
+            "budget": 600,
+            "type": "fun",
+            "spec_type": "foto",
+            "time": "middle",
+            "size": "small",
+            "feed": "digital",
+            "automation": "automated",
+            "camera": "camera"
+        },
+        "text": "The DJI Mini 3 Pro is a small-sized drone designed for fun and accessible aerial photography. Priced at approximately $600, it features automated flight capabilities and a digital feed for real-time viewing. Perfect for hobbyists and enthusiasts alike, it offers moderate flight time and comes equipped with a camera for capturing high-quality photos. The Mini 3 Pro provides a user-friendly experience, making it an excellent choice for exploring the world of drone photography without breaking the bank.",
+        "image": "DJI Mini 3 Pro",
+        "link": "https://dronedealer.de/products/mini3pro-halterung"
+    },
+    "Ruko F11 Mini": {
+        "characteristic": {
+            "license": "none",
+            "location": "outdoor",
+            "knowledge": "none",
+            "budget": 200,
+            "type": "fun",
+            "spec_type": "toy",
+            "distance": "vlos",
+            "behaviour": "defensive",
+            "feed": "digital",
+            "camera": "none"
+        },
+        "text": "The Ruko F11 Mini is an outdoor drone designed for fun, with no specific license or prior knowledge required. Priced affordably around $200, it operates within visual line of sight (VLOS) and features defensive behavior for safe flying. Although it lacks a built-in camera, it offers a digital feed for real-time viewing. Ideal for recreational use and beginners, the F11 Mini is a budget-friendly option to enjoy flying without the complexity of additional licensing or technical expertise.",
+        "image": "Ruko F11 Mini",
+        "link": "https://mosaic-lille.fr/?o=ruko-f11-mini-drone-review-small-size-but-not-rr-N6lMMAfO"
+    },
+    "Autel EVO Lite+": {
+        "characteristic": {
+            "location": "outdoor",
+            "budget": 1400,
+            "spec_type": "foto",
+            "time": "long",
+            "size": "medium",
+            "feed": "digital",
+            "automation": "automated"
+        },
+        "text": "The Autel EVO Lite+ is a medium-sized drone designed for outdoor aerial photography. Priced at $1400, it offers automated flight capabilities and a digital feed for real-time monitoring. With long flight times, it's ideal for capturing extensive footage and high-quality photos. The EVO Lite+ is perfect for enthusiasts and professionals looking for a reliable and easy-to-use drone to enhance their photography skills in various outdoor settings.",
+        "image": "Autel EVO Lite+",
+        "link": "https://au.pcmag.com/drones/86741/autel-robotics-evo-ii-pro"
+    },
+    "iFlight Nazgul XL5 ECO": {
+        "characteristic": {
+            "license": "A2",
+            "location": "outdoor",
+            "knowledge": "enough",
+            "budget": 260,
+            "type": "fun",
+            "spec_type": "freestyle",
+            "distance": "bvlos",
+            "time": "long",
+            "size": "medium",
+            "fpv": "yes",
+            "feed": "analog",
+            "automation": "none",
+            "camera": "action"
+        },
+        "text": "The iFlight Nazgul XL5 ECO is a medium-sized drone designed for outdoor freestyle flying. Priced at $260, it requires enough knowledge for A2 license holders and operates beyond visual line of sight (BVLOS) for long durations. With FPV capabilities and an analog feed, it's perfect for immersive flying experiences. This drone features manual control, making it ideal for hobbyists and enthusiasts interested in capturing action-packed footage and exploring aerial maneuvers.",
+        "image": "iFlight Nazgul XL5 ECO",
+        "link": "https://shop.iflight.com/Nazgul-XL5-ECO-6S-Pro2193"
+    },
+    "CADDXFPV Gofilm 20": {
+        "characteristic": {
+            "people": "over",
+            "budget": 450,
+            "spec_type": "movie",
+            "size": "small",
+            "fpv": "yes",
+            "feed": "digital",
+            "camera": "action"
+        },
+        "text": "CADDXFPV Gofilm 20 is a compact and budget-friendly drone designed for capturing cinematic footage. Priced at $450, it is capable of flying over people and features digital FPV for immersive real-time viewing. With an action camera, it excels in producing high-quality movies and dynamic video content. Ideal for filmmakers and hobbyists alike, this drone offers a versatile and accessible option to explore the creative possibilities of FPV flying and aerial cinematography.",
+        "image": "CADDXFPV Gofilm 20",
+        "link": "https://de.banggood.com/CADDXFPV-Gofilm-20-4S-2-Inch-Cinewhoop-RC-FPV-Racing-Drone-BNF-ELRS-with-Walksnail-Moonlight-Kit-Digital-HD-System-p-2013306.html?cur_warehouse=CN"
+    },
+    "Drashark 1.6-inch Toothpick": {
+        "characteristic": {
+            "location": "indoor",
+            "budget": 135,
+            "type": "sport",
+            "spec_type": "race",
+            "time": "short",
+            "behaviour": "aggressive",
+            "size": "small",
+            "fpv": "yes",
+            "automation": "none"
+        },
+        "text": "The Drashark 1.6-inch Toothpick is a compact and budget-friendly FPV drone designed for indoor racing enthusiasts. Priced at $135, it offers an aggressive flight behavior suitable for sports and racing. With FPV capabilities for immersive flying experiences, this small-sized drone is perfect for short bursts of adrenaline-filled fun. It features manual control, making it ideal for pilots looking to hone their racing skills and enjoy thrilling indoor FPV challenges.",
+        "image": "Drashark 1.6-inch Toothpick",
+        "link": "https://oscarliang.com/hglrc-drashark-1-6-inch-toothpick/"
+    },
+    "DJI Avata 2": {
+        "characteristic": {
+            "people": "over",
+            "location": "indoor",
+            "budget": 1000,
+            "type": "fun",
+            "spec_type": "freestyle",
+            "fpv": "yes",
+            "feed": "digital",
+            "automation": "automated"
+        },
+        "text": "The DJI Avata 2 is an indoor drone designed for fun and freestyle flying experiences. Priced at $1000, it offers automated flight capabilities with digital FPV for immersive real-time viewing. Designed to fly safely over people, this drone is perfect for enthusiasts looking to explore creative freestyle maneuvers indoors. The Avata 2 combines ease of use with advanced features, making it an ideal choice for pilots who enjoy both precision control and automated flight modes for capturing dynamic FPV footage.",
+        "image": "DJI Avata 2",
+        "link": "https://www.dji.com/de/avata-2"
+    },
+    "BetaFPV Cetus X": {
+        "characteristic": {
+            "people": "over",
+            "location": "indoor",
+            "budget": 170,
+            "spec_type": "race",
+            "time": "short",
+            "size": "small",
+            "fpv": "yes",
+            "feed": "analog",
+            "camera": "none"
+        },
+        "text": "The BetaFPV Cetus X is an indoor FPV drone designed for racing enthusiasts. Priced at $170, it features analog FPV for immersive real-time viewing and is suitable for flying safely over people. With a compact size and optimized for short, intense races, this drone offers manual control for precision flying maneuvers. Ideal for pilots looking to engage in competitive indoor racing, the Cetus X provides a thrilling experience and is a great option for honing racing skills in confined spaces.",
+        "image": "BetaFPV Cetus X",
+        "link": "https://www.techradar.com/reviews/betafpv-cetus-x-review"
+    },
+    "EMAX Hawk Pro": {
+        "characteristic": {
+            "people": "away",
+            "location": "outdoor",
+            "budget": 250,
+            "type": "sport",
+            "spec_type": "race",
+            "time": "middle",
+            "behaviour": "aggressive",
+            "size": "medium",
+            "fpv": "yes",
+            "automation": "none",
+            "camera": "none"
+        },
+        "text": "The EMAX Hawk Pro is tailored for outdoor sports and racing enthusiasts. Priced at $250, it features aggressive flight behavior optimized for competitive racing. Designed to operate away from people, this medium-sized drone offers manual control and FPV capability for immersive racing experiences. Ideal for pilots seeking a balance between performance and affordability, the Hawk Pro delivers thrilling speed and maneuverability, making it a perfect choice for enthusiasts looking to dominate the skies in outdoor racing competitions.",
+        "image": "EMAX Hawk Pro",
+        "link": "https://emaxmodel.com/products/emax-hawk-pro-5-inch-4s-6s-fpv-racing-drone-bnf-f405-fc-35a-blheli_32-esc-pulsar-2306-1700kv-2400kv-motor-caddx-ratel-cam-25-200mw-vtx-bnf#"
+    }
+}

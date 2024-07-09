@@ -1,0 +1,15 @@
+<!--
+last change: 24.06.2024
+author: Tjorven Burdorf
+
+description: display of the login window
+-->
+<div class="container">
+    <!-- data input form -->
+    <div>
+        <label>Your username: </label>
+        <input [(ngModel)]="username" placeholder="User Name" (keydown.enter)="confirm()">
+    </div>
+    <!-- button for committing the data -->
+    <button (click)="confirm()" routerLink="/chat">Confirm</button>
+</div>

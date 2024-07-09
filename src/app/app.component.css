@@ -1,0 +1,59 @@
+/*
+last change: 24.06.2024
+author: Tjorven Burdorf
+
+description: style of the static parts of the page
+*/
+/* Stylesheet for the main component */
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(31, 31, 31, 0.5);
+    padding: 10px 0;
+}
+
+.header a {
+    color: #027abb;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 18px;
+}
+
+.header a:hover {
+    background-color: rgba(51, 51, 51, 0.5);
+    color: #8098bd;
+}
+
+/* adjusts the header if the page gets to small */
+@media (max-width: 500px) {
+    .header a {
+        padding: 8px 12px;
+        font-size: 15px;
+    }
+}
+
+/* places the footer at the bottom of the page or screen */
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(31, 31, 31, 0.5);
+    padding: 10px 0;
+    margin-top: 20px;
+}

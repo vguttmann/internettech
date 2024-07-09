@@ -1,0 +1,36 @@
+<!--
+last change: 24.06.2024
+author: Tjorven Burdorf
+
+description: display of the chatbot page
+-->
+<!-- different display in the chat window depending on the login -->
+<div class="container">
+    <div *ngIf="controller.loggedIn" class="chat">
+        <app-chat></app-chat>
+    </div>
+    <div *ngIf="!controller.loggedIn" class="chat">
+        <app-data></app-data>
+    </div>
+</div>
+<!-- additional info -->
+<div class="explanation">
+    <h2>Drone Finder Chatbot Explained</h2>
+    <p>
+        This Drone Finder Chatbot helps you find the perfect drone based on your preferences and needs.
+        Whether you're a beginner or an experienced pilot, the chatbot guides you through a series of
+        questions to recommend the most suitable drone model.
+    </p>
+    <p>
+        You can restart the test at any time to get a new recommendation.
+        Start by logging in to begin chatting with the chatbot and discover your ideal drone today!
+    </p>
+    <p>
+        Further information can be found on the following websites:<br>
+        <a href="https://www.hobbydrone.cz/en/">Hobby-Drone.cz</a><br>
+        <a href="https://www.autelpilot.com/blogs/news/2023-best-hobby-drones-for-recreational-use">Autelpilot.com</a><br>
+        <a href="https://www.flyability.com/blog/commercial-drones#The_Top_7_Commercial_Drones_for_Sale_in_2022">Flyability.com</a><br>
+        <a href="https://uavcoach.com/fpv-quadcopter-drone-systems/##guide-2">UAVCoach.com</a>
+    </p>
+</div>
+

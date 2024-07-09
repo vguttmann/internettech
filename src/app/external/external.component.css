@@ -1,0 +1,15 @@
+/*
+last change: 24.06.2024
+author: Tjorven Burdorf
+
+description: style of the window with external content
+*/
+/* adjust style of the external page */
+.iframe-container {
+    margin-top: -5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Full viewport height */
+    width: 100vw;
+}

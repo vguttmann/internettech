@@ -1,0 +1,99 @@
+<!--
+last change: 24.06.2024
+author: Tjorven Burdorf
+
+description: display of the about page
+-->
+<!-- static explanation of the algorithm used for the chat -->
+<div class="container">
+    <h1>Chatbot Implementation Details</h1>
+    <h2>Introduction</h2>
+    <p>This page outlines the implementation details of a chatbot designed to interact with users, gather information
+        through a series of questions, and provide advice based on the user's responses. The chatbot uses predefined
+        data stored in JSON files and utilizes a state machine to manage the conversation flow.</p>
+
+    <h2>Components and Data</h2>
+    <p>The chatbot uses several JSON files to store necessary data:</p>
+
+    <p><code>questions.json</code>: Contains the questions to be asked to the user.<br>
+    <code>generals.json</code>: Contains general actions and keywords for state transitions.<br>
+    <code>answers.json</code>: Contains keywords for positive and negative responses.<br>
+    <code>drones.json</code>: Contains data on various drones, including characteristics and descriptions.<br>
+    <code>weight.json</code>: Contains weights for different characteristics used in evaluation.</p>
+
+
+    <h2>Session Management</h2>
+    <p>Each user interaction is managed through a <code>BotSession</code> class instance, which maintains the state of
+        the
+        conversation, user responses, and evaluation results.</p>
+
+    <h3>Session ID Generator</h3>
+    <p>A session ID generator <code>_sid_generator</code> ensures each session has a unique identifier.</p>
+
+    <h3>Session Initialization</h3>
+    <p>The <code>BotSession</code> constructor initializes the session with the following:</p>
+
+    <p>Loading data from JSON files.<br>
+    Setting initial states (<code>state</code> and <code>last</code>).<br>
+    Initializing a question iterator.<br>
+    Setting up an empty knowledge base and evaluation list.</p>
+
+
+    <h2>State Machine</h2>
+    <p>The chatbot uses a state machine to handle conversation flow. The main states include:</p>
+
+    <p><code>greet</code>: Initial greeting state.<br>
+    <code>asking</code>: Asking questions from the predefined list.<br>
+    <code>change</code>: Handling changes in questions.<br>
+    <code>capabilities</code>: Responding to inquiries about the chatbot's capabilities.<br>
+    <code>start</code> and <code>exit</code>: Managing the beginning and end of the session.<br>
+    <code>evaluation</code>: Evaluating the user's responses and providing recommendations.<br>
+    <code>finished</code>: Concluding the session.</p>
+
+
+    <h3>Conversation Flow</h3>
+    <p><strong>Greeting State:</strong></p>
+    <p>The session starts in the <code>greet</code> state. If the user inquires about capabilities, the state
+        transitions to
+        <code>capabilities</code>, otherwise to <code>asking</code>.</p>
+
+    <p><strong>Asking Questions:</strong></p>
+    <p>The chatbot asks questions sequentially. User responses are analyzed to update the state or continue asking
+        questions.</p>
+
+    <p><strong>Change State:</strong></p>
+    <p>Handles requests to change answers. Reverts to <code>asking</code> after changes are confirmed.</p>
+
+    <p><strong>Capabilities State:</strong></p>
+    <p>Provides information about the chatbot's capabilities. Reverts to the previous state after handling the
+        inquiry.</p>
+
+    <p><strong>Start and Exit States:</strong></p>
+    <p>Handles the start or end of a session based on user confirmation.</p>
+
+    <p><strong>Evaluation State:</strong></p>
+    <p>Compiles user responses to generate advice or recommendations.</p>
+
+    <p><strong>Finished State:</strong></p>
+    <p>Concludes the session and provides final actions or recommendations.</p>
+
+    <h3>Answer Generation</h3>
+    <p>The <code>generate_answer</code> method manages state transitions and generates appropriate responses.</p>
+
+    <h3>Helper Methods</h3>
+
+    <p><code>_check_for_general</code>: Matches user input with general actions.<br>
+    <code>_get_result</code>: Processes user responses to derive results.<br>
+    <code>_negated</code>: Checks for negation in user responses.<br>
+    <code>_confirmed</code>: Confirms user responses based on positive keywords.<br>
+    <code>_create_advice</code>: Evaluates user responses and generates recommendations.</p>
+
+
+    <h2>Conclusion</h2>
+    <p>This chatbot implementation provides a structured and interactive user experience through a well-defined state
+        machine and data-driven approach. By leveraging various JSON files for storing questions, general actions,
+        answers,
+        drone data, and weights, the chatbot can dynamically interact with users, gather information, and provide
+        tailored
+        advice based on user inputs.</p>
+</div>

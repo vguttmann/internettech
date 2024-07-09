@@ -1,0 +1,15 @@
+/*
+last change: 24.06.2024
+author: Tjorven Burdorf
+
+description: style of the login page
+*/
+/* responsive style of the login elements */
+.container {
+    width: 80vw;
+    min-width: 400px;
+    max-width: 1000px;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}

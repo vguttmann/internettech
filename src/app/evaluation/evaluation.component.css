@@ -1,0 +1,63 @@
+/*
+last change: 24.06.2024
+author: Tjorven Burdorf
+
+description: style of the evaluation
+*/
+/* extra style for the evaluation */
+strong {
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+#title-text {
+    max-width: 80vw;
+}
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-image {
+    width: 60vw;
+}
+
+.evaluation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.evaluation h3, .evaluation p {
+    margin: 0;
+}
+
+.evaluation img {
+    max-width: 720px;
+    width: 50vw;
+    cursor: pointer;
+}
+
+.text {
+    flex-grow: 1;
+}
+
+@media (max-width: 600px) {
+    .evaluation {
+        flex-direction: column;
+    }
+
+    .evaluation img {
+        width: 80vw;
+        margin: 20px 0 0;
+    }
+
+    .text {
+        order: -1;
+        width: 100%;
+        text-align: center;
+    }
+}

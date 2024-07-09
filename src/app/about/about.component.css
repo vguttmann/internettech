@@ -1,0 +1,12 @@
+/*
+last change: 24.06.2024
+author: Tjorven Burdorf
+
+description: style of the about page
+*/
+/* style to size the container */
+.container {
+    width: 80vw;
+    min-width: 400px;
+    max-width: 1000px;
+}

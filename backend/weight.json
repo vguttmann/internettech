@@ -1,0 +1,19 @@
+{
+    "country": 1,
+    "license": 1,
+    "people": 2,
+    "location": 3,
+    "knowledge": 1,
+    "budget": 10,
+    "margin": 0,
+    "type": 5,
+    "spec_type": 2,
+    "distance": 1,
+    "time": 1,
+    "behaviour": 1,
+    "size": 2,
+    "fpv": 4,
+    "feed": 2,
+    "automation": 1,
+    "camera": 1
+}

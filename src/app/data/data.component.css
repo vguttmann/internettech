@@ -1,0 +1,42 @@
+/*
+last change: 24.06.2024
+author: Tjorven Burdorf
+
+description: style of the login window
+*/
+/* style for the data collection */
+button {
+    background-color: #8490da;
+    color: #121212;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #454eb6;
+    color: #ffffff;
+}
+
+input {
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+/* additional margin */
+.container {
+    margin: 50px auto;
+    text-align: center;
+}

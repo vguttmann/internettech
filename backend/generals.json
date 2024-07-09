@@ -1,0 +1,58 @@
+{
+    "change": {
+        "keywords": [
+            "change",
+            "update",
+            "correct",
+            "mistake"
+        ],
+        "action": "Do you want to change your latest message?",
+        "fallback": "Please answer with yes or no if you want to update your latest statement!"
+    },
+    "capabilities": {
+        "keywords": [
+            "capabi",
+            "ability",
+            "you do",
+            "use"
+        ],
+        "action": "I provide you with a few information about drones, specifically so called quadcopters. Please answer the questions for optimal feedback on which drone suits you most.",
+        "fallback": "You already got to know what I can do. general information can be found on the website from dipul. Let's start with the Test!"
+    },
+    "start": {
+        "keywords": [
+            "restart",
+            "start over",
+            "redo",
+            "begin",
+            "lets",
+            "let's",
+            "let"
+        ],
+        "action": "Hey, you are about to start or restart your personal drone test, please confirm and stick with the questions to make this as convenient as possible."
+    },
+    "exit": {
+        "keywords": [
+            "exit",
+            "stop",
+            "end",
+            "no more",
+            "finish",
+            "result"
+        ],
+        "action": "You are about to exit this session, please confirm your decision.",
+        "fallback": "Please answer with yes or no if you want to exit this session!"
+    },
+    "greeting": {
+        "keywords": [],
+        "action": "Hello, I am your assistance at finding your sort of drone according to your application. Let's get started!"
+    },
+    "recommendation": {
+        "keywords": [],
+        "action": "We evaluated the data you provided. Please answer anything to receive it!"
+    },
+    "finish": {
+        "keywords": [],
+        "action": "You finished your journey, you can find general information at the 'Info' screen, and an extended review your results in the 'Evaluation' screen. Thank you for using this Tool!"
+    }
+}
