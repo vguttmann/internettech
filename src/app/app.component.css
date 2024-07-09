@@ -38,7 +38,15 @@ description: style of the static parts of the page
 }
 
 /* adjusts the header if the page gets to small */
-@media (max-width: 500px) {
+@media (max-width: 888px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header nav {
+    margin-right: auto;
+  }
+
   .header a {
     padding: 8px 12px;
     font-size: 15px;
