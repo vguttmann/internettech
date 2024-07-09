@@ -1,6 +1,6 @@
 /*
 last change: 24.06.2024
-author: Tjorven Burdorf
+author: Vincent Guttmann
 
 description: represents a message with all of its properties
 */

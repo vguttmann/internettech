@@ -1,6 +1,6 @@
 /*
 last change: 24.06.2024
-author: Tjorven Burdorf
+author: Vincent Guttmann
 
 description: logic of the main component
 */
@@ -16,5 +16,5 @@ import {RouterLink, RouterOutlet} from '@angular/router';
 })
 // logic of the main component
 export class AppComponent {
-    title = 'Projektarbeit - Tjorven Burdorf';
+    title = 'Projektarbeit - Vincent Guttmann';
 }
