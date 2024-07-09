@@ -78,97 +78,56 @@
     "consumption": {
         "question": "How much power is your MCU allowed to consume?",
         "fallback": [
-            "The valid options are A1, A2, A3 or none!",
-            "Please specify if you have a license: A1, A2, A3, or none.",
-            "Let me know if your license is A1, A2, A3, or if you don't have one.",
-            "You can say A1, A2, A3, or none if you don't have a license.",
-            "Do you have a license? Answer with A1, A2, A3, or none.",
-            "Are you licensed? Choose from A1, A2, A3, or none.",
-            "Could you indicate if you hold a license: A1, A2, A3, or none?",
-            "Let me know your license status: A1, A2, A3, or none.",
-            "Do you possess a license? Options are A1, A2, A3, or none.",
-            "Please confirm if your license type is A1, A2, A3, or none."
+            "Please tell me what your power budget is!",
+            "Tell me whether your MCU is allowed to consume little, medium, or a lot of power!"
         ],
         "result": {
-            "none": [
-                "no ",
-                "none",
-                "dont",
-                "n't",
-                "never",
-                "negative",
-                "false"
+            "low": [
+                "little",
+                "efficient",
+                "low"
             ],
-            "A1": [
-                "minor",
-                "one",
-                "a1",
-                "500"
+            "med": [
+                "medium",
+                "moderate",
+                "normal"
             ],
-            "A2": [
-                "normal",
-                "a2",
-                "2,5",
-                "2.5",
-                "2500"
-            ],
-            "A3": [
-                "big",
-                "major",
-                "a3",
-                "25",
-                "25000"
+            "high": [
+                "all",
+                "high",
+                "unconstrained"
             ]
         }
     },
-    "people": {
-        "question": "Talking about people, where do you want to fly in regard of uninvolved people?",
+    "io": {
+        "question": "Tell me: How many I/O pins do you need?",
         "fallback": [
-            "Do you want to fly near, over, or far away from people?",
-            "Could you specify if you prefer flying over, near, or far away from people?",
-            "Are you intending to fly over crowds, near people, or in a remote area?",
-            "Let me know if your flight path is over, near, or far from uninvolved people.",
-            "Would you say your flight should be over, near, or away from people?",
-            "Are you considering flying over, close to, or away from people?",
-            "Do you plan to fly over crowds, near individuals, or in a secluded area?",
-            "Please indicate if your flight route will be over, near, or far from people.",
-            "Are you thinking of flying over a crowd, near people, or in a remote spot?",
-            "Could you tell me if your flight will be over, near, or far from uninvolved individuals?"
+            "How many I/O pins do you need? Fewer than 10 (few), a medium amount (up to 30), or a lot (up to 100)",
+            "What are your I/O needs?"
         ],
         "result": {
-            "over": [
-                "over",
-                "crowds",
-                "concert",
-                "town",
-                "urban",
-                "groups"
+            "few": [
+                "little",
+                "few",
+                "low"
             ],
-            "close": [
-                "near",
-                "next",
-                "close",
-                "sports",
-                "around"
+            "med": [
+                "medium",
+                "moderate",
+                "normal"
             ],
-            "away": [
-                "far",
-                "forest",
-                "willow",
-                "away",
-                "remote",
-                "isolated",
-                "seclude",
-                "secure",
-                "distance"
+            "lots": [
+                "lots",
+                "high",
+                "plenty"
             ]
         }
     },
-    "location": {
-        "question": "Depending on your flight area some drones may be more useful, so what is your flight territory?",
+    "speed": {
+        "question": "How much processing power does your application require?",
         "fallback": [
-            "Where do you typically fly, indoors or outdoors?",
-            "Could you specify whether your flights are indoors or outdoors?",
+            "What are your needs when it comes to compute?",
+            "How powerful will your MCU have to be?",
             "Are your flights primarily indoors or outdoors?",
             "Do you generally fly in indoor or outdoor environments?",
             "Let me know if you fly inside or outside most of the time.",
@@ -179,38 +138,26 @@
             "Could you indicate whether your flight area is indoors or outdoors?"
         ],
         "result": {
-            "outdoor": [
-                "outdoor",
-                "outside",
-                "free",
-                "air",
-                "forest",
-                "beach",
-                "mountain",
-                "field",
-                "band",
-                "garden",
-                "away",
-                "both",
-                "all",
-                "every"
+            "low": [
+                "little",
+                "few",
+                "low"
             ],
-            "indoor": [
-                "indoor",
-                "inside",
-                "mine",
-                "between",
-                "under",
-                "close",
-                "tight",
-                "small",
-                "house",
-                "through"
+            "med": [
+                "medium",
+                "moderate",
+                "normal"
+            ],
+            "high": [
+                "lots",
+                "high",
+                "plenty",
+                "powerful"
             ]
         }
     },
-    "knowledge": {
-        "question": "Which knowledge about the applicable law do you have?",
+    "size": {
+        "question": "How much space is your MCU allowed to take up?",
         "fallback": [
             "How would you categorize your knowledge over your country's drone law, not existing, little, or big enough?",
             "Please specify your knowledge level about drone laws: none, little, or enough.",
@@ -224,553 +171,51 @@
             "Do you have knowledge of drone laws: none at all, a bit, or comprehensive?"
         ],
         "result": {
-            "none": [
-                "no ",
-                "none",
-                "dont",
-                "n't",
-                "never",
-                "negative",
-                "false"
-            ],
-            "little": [
+            "low": [
                 "little",
-                "existing",
-                "bit",
-                "some",
                 "few",
-                "small"
+                "low",
+                "compact",
+                "small",
+                "little",
+                "mini",
+                "tiny"
             ],
-            "enough": [
-                "enough",
-                "suffic",
+            "med": [
+                "medium",
+                "moderate",
+                "normal",
+                "middle",
+                "standard",
+                "average",
+                "typical",
+                "general"
+            ],
+            "high": [
+                "lots",
+                "high",
+                "plenty",
+                "powerful",
                 "big",
-                "much",
-                "lot",
-                "know",
-                "detail",
-                "all",
-                "every",
-                "comprehensive"
+                "large"
             ]
         }
     },
     "budget": {
-        "question": "How much are you willing to spend on this adventure?",
+        "question": "What is your budget for this controller??",
         "fallback": [
-            "Please enter your answer in a common format in the unit EUR!",
-            "Could you provide your response in EUR?",
-            "Please specify your budget in EUR.",
-            "Can you let me know your budget in euros?",
-            "Could you indicate how much you're willing to spend in EUR?",
-            "Please enter your budget amount using EUR as the currency.",
-            "Let me know your budget in euros, please.",
-            "Please state your budget amount in EUR.",
-            "Would you mind telling me your budget in euros?",
-            "Please enter your budget using EUR as the currency."
+            "Please provide your answer in EUR currency using a standard format.",
+            "Can you please answer in EUR?",
+            "Please tell me how much you're willing to spend in EUR.",
+            "Can you let me know your budget in euros?"
         ],
         "result": false
     },
     "margin": {
-        "question": "How big is your margin on top of that? No worries, I won't ask another time.",
+        "question": "What is the additional margin you have? Don't worry, I won't ask again.",
         "fallback": [
-            "Please enter your answer in a common format in EUR, ensuring it's not zero!",
-            "Could you please provide your response in EUR? Make sure it's not zero.",
-            "Please specify your margin in EUR, ensuring it's not zero.",
-            "Can you let me know your margin in euros? It should not be zero.",
-            "Could you indicate how much your margin is in EUR? It must be a nonzero value.",
-            "Please enter your margin amount in EUR, ensuring it's not zero.",
-            "Let me know your margin in euros, ensuring it's not zero.",
-            "Please state your margin amount in EUR, ensuring it's not zero.",
-            "Would you mind telling me your margin in euros? It should not be zero.",
-            "Please enter your margin using EUR as the currency, ensuring it's not zero."
+            "Please provide your answer in EUR using a standard format, and ensure it is not zero."
         ],
         "result": false
-    },
-    "type": {
-        "question": "For what type of activity do you want to use your drone?",
-        "fallback": [
-            "Please help me to fit your input into one of these categories: fun, sport, or work.",
-            "Could you please categorize your intended use as fun, sport, or work?",
-            "Let me know if your activity falls into the categories: fun, sport, or work.",
-            "Please specify if your drone use is for fun, sport, or work.",
-            "Can you classify your drone use as either fun, sport, or work?",
-            "Could you indicate whether your drone activity is for leisure, sport, or professional purposes?",
-            "Would you categorize your drone use as recreational, competitive, or professional?",
-            "Please help me categorize your drone use: recreational, competitive, or professional.",
-            "Could you specify if your drone is for hobby, sport, or professional use?",
-            "Let me know if your drone use is for enjoyment, competition, or professional purposes."
-        ],
-        "result": {
-            "fun": [
-                "fun",
-                "joy",
-                "experiment",
-                "try",
-                "play",
-                "indoors",
-                "looping",
-                "recreat",
-                "foto",
-                "hobby",
-                "leisure",
-                "film",
-                "video"
-            ],
-            "sport": [
-                "sport",
-                "achieve",
-                "push",
-                "fast",
-                "compete",
-                "limit",
-                "race",
-                "explore"
-            ],
-            "work": [
-                "work",
-                "job",
-                "farm",
-                "find",
-                "profes",
-                "cinema",
-                "search",
-                "help",
-                "rescue",
-                "career"
-            ]
-        }
-    },
-    "spec_type": {
-        "question": "What concrete use-case do you want to satisfy with the drone?",
-        "fallback": [
-            "Please specify which use the drone should have: foto/video, playing, freestyle, racing, movie shoots, agricultural work, or monitoring.",
-            "Could you please indicate the specific use-case for the drone: photo/video, playing, freestyle, racing, movie shoots, agricultural work, or monitoring?",
-            "Let me know the intended use of the drone: photo/video, playing, freestyle, racing, movie shoots, agricultural work, or monitoring.",
-            "Please clarify the purpose of the drone: photo/video, playing, freestyle, racing, movie shoots, agricultural work, or monitoring.",
-            "Can you specify the intended use-case for the drone: photo/video, playing, freestyle, racing, movie shoots, agricultural work, or monitoring?",
-            "Please specify which use the drone should have: photo/video, playing, freestyle, racing, movie shoots, agricultural work, or monitoring.",
-            "Could you please indicate the specific use-case for the drone: film, playing, explore, race, movie, agri, or monitoring?",
-            "Let me know the intended use of the drone: capture, toy, trick, compete, cinema, farm, or rescue.",
-            "Please clarify the purpose of the drone: video, toy, tricks, fast, quality, field, or find.",
-            "Can you specify the intended use-case for the drone: vacation, looping, experience, athlete, quality, auto, or hrlping?"
-        ],
-        "result": {
-            "foto": [
-                "film",
-                "foto",
-                "capture",
-                "video",
-                "vacation"
-            ],
-            "toy": [
-                "play",
-                "toy",
-                "kid",
-                "experiment",
-                "looping",
-                "indoors"
-            ],
-            "freestyle": [
-                "free",
-                "explore",
-                "hit",
-                "trick",
-                "learn",
-                "find out",
-                "experience"
-            ],
-            "race": [
-                "race",
-                "compete",
-                "fast",
-                "sport",
-                "athlete"
-            ],
-            "movie": [
-                "cinema",
-                "movie",
-                "quality"
-            ],
-            "agricultural": [
-                "agri",
-                "farm",
-                "field",
-                "spray",
-                "auto"
-            ],
-            "monitoring": [
-                "monitor",
-                "find",
-                "search",
-                "help",
-                "get",
-                "rescue"
-            ]
-        }
-    },
-    "distance": {
-        "question": "How far do you want to fly and explore your surrounding?",
-        "fallback": [
-            "Possible options are in sight, further than your visual line, and long range (over a kilometer).",
-            "Could you choose between flying in sight, beyond visual line, or long range (over a kilometer)?",
-            "Let me know if you prefer flying within sight, beyond visual line, or long range (over a kilometer).",
-            "Please specify if you want to fly within sight, beyond visual line, or long range (over a kilometer).",
-            "Can you select one of these options: in sight, beyond visual line, or long range (over a kilometer)?",
-            "Could you indicate your preference for flying: in sight, beyond visual line, or long range (over a kilometer)?",
-            "Would you like to fly within sight, beyond visual line, or long range (over a kilometer)?",
-            "Please choose one: in sight, beyond visual line, or long range (over a kilometer).",
-            "Do you plan to fly in sight, beyond visual line, or long range (over a kilometer)?",
-            "Could you clarify your flying distance preference: in sight, beyond visual line, or long range (over a kilometer)?"
-        ],
-        "result": {
-            "vlos": [
-                "near",
-                "vlos",
-                "close",
-                "side",
-                "around",
-                "visual",
-                "sight"
-            ],
-            "bvlos": [
-                "wide",
-                "far",
-                "bvlos",
-                "away",
-                "explore",
-                "long",
-                "range"
-            ]
-        }
-    },
-    "time": {
-        "question": "In regard of this distance you want to overcome, what is your targeted airtime?",
-        "fallback": [
-            "How long do you want to fly in minutes?",
-            "Could you specify the desired flight duration in minutes?",
-            "Let me know the targeted airtime in minutes.",
-            "Please indicate how many minutes you plan to fly.",
-            "Can you specify the duration of flight in minutes?",
-            "Could you tell me how long you want to fly in minutes?",
-            "Would you like to specify your targeted airtime in minutes?",
-            "Please provide the desired flight duration in minutes.",
-            "Do you have a specific flight duration in mind in minutes?",
-            "Could you clarify the duration of flight you're targeting in minutes?"
-        ],
-        "result": {
-            "short": [
-                "short",
-                "around",
-                "1",
-                "2"
-            ],
-            "middle": [
-                "middle",
-                "bit",
-                "some",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7"
-            ],
-            "long": [
-                "long",
-                "around",
-                "long",
-                "last",
-                "8",
-                "9"
-            ]
-        }
-    },
-    "behaviour": {
-        "question": "Another factor, which drastically influences your airtime is your flight style. How hard are you going to push your quad?",
-        "fallback": [
-            "How would you describe your flight style, defensive, moderate, or aggressive?",
-            "Could you specify your flying style as defensive, moderate, or aggressive?",
-            "Let me know your preferred flight style: defensive, moderate, or aggressive?",
-            "Please describe your flight style: defensive, moderate, or aggressive?",
-            "Can you indicate whether your flight style is defensive, moderate, or aggressive?",
-            "Could you specify if you fly defensively, moderately, or aggressively?",
-            "Would you characterize your flight style as defensive, moderate, or aggressive?",
-            "Please choose one: defensive, moderate, or aggressive flight style.",
-            "Do you typically fly defensively, moderately, or aggressively?",
-            "Could you clarify your approach to flying: defensive, moderate, or aggressive?"
-        ],
-        "result": {
-            "defensive": [
-                "defensive",
-                "slow",
-                "secure",
-                "around",
-                "look",
-                "search",
-                "find",
-                "new",
-                "check"
-            ],
-            "moderate": [
-                "bit",
-                "some",
-                "moderate",
-                "normal",
-                "explore",
-                "view",
-                "tricks"
-            ],
-            "aggressive": [
-                "aggressive",
-                "fast",
-                "push",
-                "race",
-                "crash",
-                "risk"
-            ]
-        }
-    },
-    "size": {
-        "question": "Drone are out there in all different sizes. What is your idea of the size of the drone?",
-        "fallback": [
-            "How big should your drone be? Small, medium, large, or huge...",
-            "Could you specify the size preference for your drone: small, medium, large, or huge?",
-            "Let me know your idea of the drone size: small, medium, large, or huge...",
-            "Please describe the size you're looking for: small, medium, large, or huge...",
-            "Can you indicate the desired drone size: small, medium, large, or huge?",
-            "Could you specify if you prefer a small, medium, large, or huge drone?",
-            "Would you like to specify the drone size as small, medium, large, or huge?",
-            "Please choose one: small, medium, large, or huge drone size.",
-            "Do you have a preference for a small, medium, large, or huge drone?",
-            "Could you clarify the size range you're considering: small, medium, large, or huge?"
-        ],
-        "result": {
-            "small": [
-                "small",
-                "little",
-                "mini",
-                "hand",
-                "finger",
-                "tiny",
-                "1",
-                "2"
-            ],
-            "medium": [
-                "medium",
-                "middle",
-                "normal",
-                "standard",
-                "average",
-                "typical",
-                "general",
-                "3",
-                "4",
-                "5"
-            ],
-            "large": [
-                "big",
-                "large",
-                "arm",
-                "6",
-                "7",
-                "8",
-                "9"
-            ],
-            "huge": [
-                "huge",
-                "insane",
-                "great",
-                "gigantic",
-                "colossal",
-                "massive",
-                "sit",
-                "10",
-                "11",
-                "12"
-            ]
-        }
-    },
-    "fpv": {
-        "question": "FPV - First-Person-View is an immersive experience, do you want to sit in the virtual cockpit?",
-        "fallback": [
-            "Do you want the opportunity to see what the drone sees, yes or no?",
-            "Would you like to experience the drone's perspective, yes or no?",
-            "Could you specify if you want to use FPV (First-Person-View), yes or no?",
-            "Let me know if you're interested in FPV (First-Person-View), yes or no?",
-            "Can you indicate if you prefer FPV (First-Person-View), yes or no?",
-            "Could you clarify your preference for FPV (First-Person-View), yes or no?",
-            "Please choose whether you want FPV (First-Person-View), yes or no.",
-            "Do you want to experience FPV (First-Person-View), yes or no?",
-            "Would you like to use FPV (First-Person-View) to see what the drone sees, yes or no?",
-            "Could you specify if you desire FPV (First-Person-View), yes or no?"
-        ],
-        "result": {
-            "yes": [
-                "yes",
-                "ja",
-                "ya",
-                "positive",
-                "true",
-                "do ",
-                "want"
-            ],
-            "no": [
-                "no ",
-                "none",
-                "dont",
-                "n't",
-                "never",
-                "negative",
-                "false"
-            ]
-        }
-    },
-    "feed": {
-        "question": "When you got a live-cam, you have to choose between quality and performance... What is your preference?",
-        "fallback": [
-            "The difference between analog and digital is performance and quality, respectively, what is your choice?",
-            "Would you prefer performance with analog or quality with digital?",
-            "Could you choose between analog (performance) or digital (quality)?",
-            "Let me know your preference: analog (performance) or digital (quality)?",
-            "Please indicate if you prioritize analog (performance) or digital (quality).",
-            "Can you specify your choice: analog (performance) or digital (quality)?",
-            "Would you prioritize analog (performance) or digital (quality)?",
-            "Please choose between analog (performance) or digital (quality).",
-            "Do you prefer analog (performance) or digital (quality) for your live-cam?",
-            "Could you clarify if you lean towards analog (performance) or digital (quality)?"
-        ],
-        "result": {
-            "analog": [
-                "analog",
-                "noisy",
-                "noise",
-                "performance",
-                "fast",
-                "race",
-                "speed",
-                "transmission",
-                "camera"
-            ],
-            "digital": [
-                "digital",
-                "clear",
-                "quality",
-                "image",
-                "cinema",
-                "latency"
-            ]
-        }
-    },
-    "automation": {
-        "question": "The degree of automation is the last big question, how much should your drone can do by itself?",
-        "fallback": [
-            "How automated should your drone be, not at all, minimal, normal, or completely autonomous?",
-            "Could you specify the level of automation: none, minimal, normal, or fully autonomous?",
-            "Let me know your preference for drone automation: none, minimal, normal, or complete autonomous?",
-            "Please indicate the desired degree of automation: none, minimal, normal, or fully autonomous?",
-            "Can you specify how much automation you want: none, minimal, normal, or complete autonomous?",
-            "Could you clarify your preference: none, minimal, normal, or fully autonomous?",
-            "Would you like to specify the level of automation: none, minimal, normal, or fully autonomous?",
-            "Please choose one: none, minimal, normal, or fully autonomous for drone automation.",
-            "Do you prefer no automation, minimal, normal, or fully autonomous features for your drone?",
-            "Could you specify if you want no automation, minimal, normal, or fully autonomous functionality?"
-        ],
-        "result": {
-            "none": [
-                "no ",
-                "none",
-                "dont",
-                "n't",
-                "never",
-                "negative",
-                "false"
-            ],
-            "minimal": [
-                "mini",
-                "gps",
-                "almost",
-                "half",
-                "bit",
-                "some",
-                "few"
-            ],
-            "automated": [
-                "automa",
-                "gps",
-                "noraml",
-                "medium",
-                "sensors",
-                "mavic",
-                "dji",
-                "control"
-            ],
-            "autonomous": [
-                "itself",
-                "completely",
-                "fully",
-                "all",
-                "everything",
-                "autono",
-                "alone"
-            ]
-        }
-    },
-    "camera": {
-        "question": "Additional cameras have their own flavour, do you need an extra camera, or external rig for your setup?",
-        "fallback": [
-            "Extra cameras on your drone have many forms, now you have to choose between none, action-cams, normal cameras, cinematic cameras, and infrared (e.g., for searches).",
-            "Could you specify if you want no extra camera, action-cams, normal cameras, cinematic cameras, or infrared (e.g., for searches)?",
-            "Let me know your preference for additional cameras: none, action-cams, normal cameras, cinematic cameras, or infrared (e.g., for searches).",
-            "Please indicate which type of extra camera you prefer: none, action-cams, normal cameras, cinematic cameras, or infrared (e.g., for searches).",
-            "Can you choose between no extra camera, action-cams, normal cameras, cinematic cameras, or infrared (e.g., for searches)?",
-            "Could you clarify your choice: none, action-cams, normal cameras, cinematic cameras, or infrared (e.g., for searches)?",
-            "Would you like to specify your preference: none, action-cams, normal cameras, cinematic cameras, or infrared (e.g., for searches)?",
-            "Please select one: none, action-cams, normal cameras, cinematic cameras, or infrared (e.g., for searches).",
-            "Do you prefer no extra camera, action-cams, normal cameras, cinematic cameras, or infrared (e.g., for searches)?",
-            "Could you specify if you need no extra camera, action-cams, normal cameras, cinematic cameras, or infrared (e.g., for searches)?"
-        ],
-        "result": {
-            "none": [
-                "try",
-                "experiment",
-                "normal",
-                "no ",
-                "none",
-                "dont",
-                "n't",
-                "never",
-                "negative",
-                "false"
-            ],
-            "action": [
-                "action",
-                "go",
-                "pro",
-                "little",
-                "small",
-                "tiny"
-            ],
-            "camera": [
-                "mount",
-                "events",
-                "camera",
-                "big",
-                "film"
-            ],
-            "movie": [
-                "movie",
-                "create",
-                "profession",
-                "cinema"
-            ],
-            "infrared": [
-                "search",
-                "find",
-                "rescue",
-                "infrared",
-                "thermal",
-                "operation"
-            ]
-        }
     }
 }

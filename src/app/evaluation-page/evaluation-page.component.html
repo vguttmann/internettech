@@ -8,14 +8,14 @@ description: display of the evaluation page
   <!-- message when bot has not finished -->
   <div *ngIf="(evaluationData.length === 0)" class="frame">
     <h2 routerLink="/chat">Please complete the evaluation with the Chatbot first!</h2>
-    <img src='assets/DJI Avata 2.jpg' alt="Autel EVO Lite+" class="title-image"/>
+    <img src='assets/Arduino Uno.jpg' alt="Arduino Uno" class="title-image"/>
   </div>
 
   <!-- greeting -->
   <div *ngIf="(evaluationData.length !== 0)" class="frame">
     <h2>Hello {{name}}!</h2>
     <p id="title-text">
-      Congratulations on completing the drone recommendation quiz! Based on your responses, here's a summary of the drones we discussed and your accuracy score from answering the chatbot:
+      Well done on completing the microcontroller recommendation quiz! Based on your responses, here's a summary of the microcontrollers we discussed and your accuracy score interacting with the chatbot.
     </p>
     <br>
   </div>
