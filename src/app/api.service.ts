@@ -10,7 +10,7 @@ import { HttpClient } from "@angular/common/http";
 import { take } from "rxjs";
 
 // adjust ip with the one of the server
-const BASE_URL = 'http://130.185.38.241:8000';
+const BASE_URL = 'http://bugfishing.com:8000';
 
 @Injectable({
     providedIn: 'root'

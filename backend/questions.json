@@ -1,7 +1,7 @@
 {
 
     "sophistication": {
-        "question": "Woudl you consider yourself a beginner, intermediate or advanced embedded developer?",
+        "question": "Would you consider yourself a beginner, intermediate or advanced embedded developer?",
         "fallback": [
             "How would you classify your proficiency in embedded systems programming: beginner, intermediate, or advanced?",
             "Please indicate your proficiency level in embedded development: beginner, intermediate, or advanced.",
