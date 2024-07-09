@@ -8,9 +8,7 @@ description: display of the about page
 <div class="container">
   <h4>About Page:</h4>
     <p>
-      The About page offers insights into the development of the Drone Finder Application. Learn more about the
-      project's objectives, implementation and the technologies used to build the chatbot and support functionalities.
-      This page provides a comprehensive overview of the application's mission and goals.
+      The About page provides insights into the development of the Microcontroller Chooser Application. Discover more about the project's objectives, implementation, and the technologies used to build the chatbot and support functionalities. This page offers a thorough overview of the application's mission and goals.
     </p>
 
     <h4>Imprint Page:</h4>
@@ -20,15 +18,12 @@ description: display of the about page
       application's operation and compliance with legal requirements.
     </p>
 
-    <h2>Drone Finder Chatbot Explained</h2>
+    <h2>Microcontroller Chooser Chatbot Explained</h2>
     <p>
-      This Drone Finder Chatbot helps you find the perfect drone based on your preferences and needs.
-      Whether you're a beginner or an experienced pilot, the chatbot guides you through a series of
-      questions to recommend the most suitable drone model.
+      The Microcontroller Chooser Chatbot assists you in finding the ideal microcontroller based on your preferences and needs. Whether you are a beginner or an experienced developer, the chatbot guides you through a series of questions to recommend the most suitable microcontroller model.
     </p>
     <p>
-      You can restart the test at any time to get a new recommendation.
-      Start by logging in to begin chatting with the chatbot and discover your ideal drone today!
+      You can restart the test at any time to receive a new recommendation. Simply log in to begin chatting with the chatbot and find your ideal microcontroller today!
     </p>
     <p>
       Further information can be found on the following websites:<br>
@@ -40,9 +35,7 @@ description: display of the about page
 
     <h1>Chatbot Implementation Details</h1>
     <h2>Introduction</h2>
-    <p>This page outlines the implementation details of a chatbot designed to interact with users, gather information
-        through a series of questions, and provide advice based on the user's responses. The chatbot uses predefined
-        data stored in JSON files and utilizes a state machine to manage the conversation flow.</p>
+    <p>This page details the implementation of a chatbot designed to interact with users, collect information through a series of questions, and offer advice based on their responses. The chatbot uses predefined data stored in JSON files and makes use of a state machine to manage the conversation flow.</p>
 
     <h2>Components and Data</h2>
     <p>The chatbot uses several JSON files to store necessary data:</p>
@@ -50,14 +43,12 @@ description: display of the about page
     <p><code>questions.json</code>: Contains the questions to be asked to the user.<br>
     <code>generals.json</code>: Contains general actions and keywords for state transitions.<br>
     <code>answers.json</code>: Contains keywords for positive and negative responses.<br>
-    <code>drones.json</code>: Contains data on various drones, including characteristics and descriptions.<br>
+    <code>drones.json</code>: Contains data on various microcontrollers, including characteristics and descriptions.<br>
     <code>weight.json</code>: Contains weights for different characteristics used in evaluation.</p>
 
 
     <h2>Session Management</h2>
-    <p>Each user interaction is managed through a <code>BotSession</code> class instance, which maintains the state of
-        the
-        conversation, user responses, and evaluation results.</p>
+    <p>Each user interaction is managed through a <code>BotSession</code> class, which keeps track of the answers, state and everything else related to the session.</p>
 
     <h3>Session ID Generator</h3>
     <p>A session ID generator <code>_sid_generator</code> ensures each session has a unique identifier.</p>
@@ -83,8 +74,8 @@ description: display of the about page
     <code>finished</code>: Concluding the session.</p>
 
 
-    <h3>Conversation Flow</h3>
-    <p><strong>Greeting State:</strong></p>
+    <h3>Conversation Progression</h3>
+    <p><strong>Greeting:</strong></p>
     <p>The session starts in the <code>greet</code> state. If the user inquires about capabilities, the state
         transitions to
         <code>capabilities</code>, otherwise to <code>asking</code>.</p>
@@ -122,10 +113,5 @@ description: display of the about page
 
 
     <h2>Conclusion</h2>
-    <p>This chatbot implementation provides a structured and interactive user experience through a well-defined state
-        machine and data-driven approach. By leveraging various JSON files for storing questions, general actions,
-        answers,
-        drone data, and weights, the chatbot can dynamically interact with users, gather information, and provide
-        tailored
-        advice based on user inputs.</p>
+    <p>The chatbot implementation offers a structured and interactive user experience through a well-defined state machine and data-driven approach. By utilizing various JSON files to store questions, actions, answers, drone data, and weights, the chatbot can dynamically engage with users, gather information, and provide tailored advice based on their inputs.</p>
 </div>

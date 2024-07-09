@@ -37,7 +37,7 @@ description: style of the chat page
   min-height: 300px;
   width: 80vw;
   min-width: 300px;
-  max-width: 1000px;
+  max-width: 900px;
   flex-grow: 1;
   overflow-y: auto;
   margin: 12px;
