@@ -45,7 +45,7 @@
     },
     "greeting": {
         "keywords": [],
-        "action": "Hello, I am your assistance at finding your sort of drone according to your application. Let's get started!"
+        "action": "Hello, I am your assistance at finding your sort of drone according to your application. You can get started by saying: \"Begin\", or similar."
     },
     "recommendation": {
         "keywords": [],

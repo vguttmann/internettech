@@ -1,19 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EvaluationComponent } from './evaluation.component';
+import { EvaluationPageComponent } from './evaluation-page.component';
 
 // file from angular
 describe('EvaluationComponent', () => {
-  let component: EvaluationComponent;
-  let fixture: ComponentFixture<EvaluationComponent>;
+  let component: EvaluationPageComponent;
+  let fixture: ComponentFixture<EvaluationPageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [EvaluationComponent]
-    })
-    .compileComponents();
+      imports: [EvaluationPageComponent]
+    }).compileComponents();
 
-    fixture = TestBed.createComponent(EvaluationComponent);
+    fixture = TestBed.createComponent(EvaluationPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

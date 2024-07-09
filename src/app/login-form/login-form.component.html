@@ -1,0 +1,18 @@
+<!--
+last change: 24.06.2024
+author: Vincent Guttmann
+
+description: display of the login window
+-->
+
+<div class="container">
+  <h1>Login</h1>
+  <p>Start the conversation by submitting a username.</p>
+
+  <div class="login-form">
+    <!-- data input form -->
+    <input placeholder="Username" [(ngModel)]="username" (keydown.enter)="begin()">
+    <!-- button for committing the data -->
+    <button (click)="begin()" routerLink="/chat" class="transition">Begin</button>
+  </div>
+</div>

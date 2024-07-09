@@ -1,0 +1,57 @@
+/*
+last change: 24.06.2024
+author: Vincent Guttmann
+
+description: style of the login form
+*/
+
+/* style for the login form */
+button {
+  background-color: #D0CEBA;
+  color: #121212;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 6px;
+}
+
+button:hover {
+  background-color: #8a8768;
+  color: #ffffff;
+}
+
+input {
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid rgba(0,0,0,0);
+  background-color: #ffffff41;
+  color: #fff;
+}
+
+input:focus {
+  border: 1px solid #D0CEBA;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 20px;
+}
+
+/* additional margin */
+.container {
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
