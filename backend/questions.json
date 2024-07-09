@@ -49,63 +49,34 @@
             ]
         }
     },
-    "country": {
-        "question": "For the start I have to roughly know where you live, for further consideration of course.",
+    "develprod": {
+        "question": "For starters, are you looking to make a one-off prototype, or do you want something that'll scale to mass-production?",
         "fallback": [
-            "It is sufficient when you say if you are in or outside the European Union.",
-            "Please let me know if you live in Europe or elsewhere.",
-            "You can simply mention if you're in the EU or not.",
-            "Just tell me if you are in Europe or another continent.",
-            "Are you residing within the European Union or outside it?",
-            "Could you indicate whether you're located in the EU or elsewhere?",
-            "Do you live in Europe or another part of the world?",
-            "Are you within the European Union or in a different region?",
-            "Let me know if you're in Europe or another continent.",
-            "Could you specify if you reside in the EU or outside it?"
+            "It is sufficient when you say if you are making a prototype or not.",
+            "Please let me know if you want to mass-produce this.",
+            "You can simply mention if you're making only one or not.",
+            "Just tell me if you are making more than ten.",
+            "Are you planning to sell this as a product?",
+            "Could you indicate whether you're planning to mass-produce this?",
+            "Do you want to make multiple of your product?",
+            "Are you developing a commercial product?"
         ],
         "result": {
-            "eu": [
-                "germany",
-                "ger",
-                "de",
-                "france",
-                "fr",
-                "spain",
-                "portugal",
-                "austria",
-                "belgium",
-                "croatia",
-                "denmark",
-                "estonia",
-                "finland",
-                "greece",
-                "hungary",
-                "island",
-                "ireland",
-                "italy",
-                "luxembourg",
-                "netherlands",
-                "sweden",
-                "eu",
-                "europe",
-                "union"
+            "devel": [
+                "unique",
+                "one",
+                "prototype"
             ],
-            "no_eu": [
-                "america",
-                "africa",
-                "any",
-                "other",
-                "out",
-                "asia",
-                "suisse",
-                "australia",
-                "world",
-                "differ"
+            "prod": [
+                "mass",
+                "commercial",
+                "many",
+                "product"
             ]
         }
     },
-    "license": {
-        "question": "Do you already have a licence registered in the EU? And if yes which?",
+    "consumption": {
+        "question": "How much power is your MCU allowed to consume?",
         "fallback": [
             "The valid options are A1, A2, A3 or none!",
             "Please specify if you have a license: A1, A2, A3, or none.",

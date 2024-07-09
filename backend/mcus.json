@@ -3,7 +3,7 @@
         "characteristic": {
             "develprod": "devel",
             "cost": 10,
-            "consumption": 40,
+            "consumption": "low",
             "io": 20,
             "speed": 16,
             "specials": "none",
@@ -18,9 +18,9 @@
 
     "Espressif ESP32-S3": {
         "characteristic": {
-            "develprod": "both",
+            "develprod": "devel",
             "cost": 8,
-            "consumption": 60,
+            "consumption": "med",
             "io": 25,
             "speed": 120,
             "specials": "all",
@@ -35,7 +35,7 @@
         "characteristic": {
             "develprod": "devel",
             "cost": 6,
-            "consumption": 50,
+            "consumption": "med",
             "io": 26,
             "speed": 133,
             "specials": "none",
@@ -50,7 +50,7 @@
         "characteristic": {
             "develprod": "devel",
             "cost": 60,
-            "consumption": 1000,
+            "consumption": "high",
             "io": 40,
             "speed": 1200,
             "specials": "all",
@@ -65,7 +65,7 @@
         "characteristic": {
             "develprod": "prod",
             "cost": 2,
-            "consumption": 30,
+            "consumption": "low",
             "io": 30,
             "speed": 250,
             "specials": "none",
@@ -80,7 +80,7 @@
         "characteristic": {
             "develprod": "prod",
             "cost": 1,
-            "consumption": 10,
+            "consumption": "low",
             "io": 8,
             "speed": 16,
             "specials": "none",
@@ -93,9 +93,9 @@
     },
     "Artix 7": {
         "characteristic": {
-            "develprod": "both",
+            "develprod": "prod",
             "cost": 70,
-            "consumption": 55,
+            "consumption": "med",
             "io": 100,
             "speed": 2000,
             "specials": "none",
